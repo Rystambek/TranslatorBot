@@ -1,7 +1,7 @@
 from telegram.ext import Updater,Filters,CallbackContext
 from telegram import Update
 from googletrans import Translator
-from api import query
+from lookup import query
 
 tranlator = Translator()
 
